@@ -24,7 +24,6 @@ Requirements
 - Hucommerce: https://www.hucommerce.hu/
 - Barion payment plugin
 - CC Cookie consent cookie plugin
-- CC Cookie consent cookie plugin
 - Classic editor plugin
 - Foxpost Woocommerce plugin
 - Autodescription SEO plugin
@@ -32,5 +31,13 @@ Requirements
 - BOLT Storefront child theme
 
 You can modify this requirements any time in your project.
+
+## Contributors ✨
+Thanks goes to these awesome projects:
+- Roots Bedrock: https://roots.io/bedrock/
+- Woocommerce
+- Hucommerce: https://www.hucommerce.hu/
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
 
   
