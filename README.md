@@ -27,6 +27,7 @@ Requirements
 - Classic editor plugin
 - Foxpost Woocommerce plugin
 - Autodescription SEO plugin
+- Google Analytics plugin
 - Storefront theme
 - BOLT Storefront child theme
 
