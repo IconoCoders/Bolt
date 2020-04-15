@@ -29,7 +29,7 @@ get_header(); ?>
 					}
 
 					echo '</section>';
-					
+
 					?>
 
 				</div><!-- .page-content -->

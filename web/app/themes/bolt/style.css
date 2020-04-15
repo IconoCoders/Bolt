@@ -16,3 +16,7 @@ a:focus,
 .focus a {
     outline: none !important;
 }
+
+h2.woocommerce-loop-product__title {
+    margin-top: 15px;
+}
