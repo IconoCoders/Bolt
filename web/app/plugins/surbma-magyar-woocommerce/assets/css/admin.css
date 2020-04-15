@@ -1,0 +1,9 @@
+@media (min-width: 960px) {
+	.cps-admin .uk-form-horizontal .uk-form-label {
+		width: 400px;
+	}
+
+	.cps-admin .uk-form-horizontal .uk-form-controls {
+		margin-left: 415px;
+	}
+}

@@ -1,0 +1,15 @@
+#foxpost_woo_parcel_dialog_iframe {
+    border: 0;
+}
+.foxpost_woo_parcel_apt_select_td {
+    padding-left: 0;
+    padding-right: 0;
+}
+.foxpost_woo_parcel_apt_select {
+    width: 100%;
+}
+.map-chooser-button {
+    margin: 10px 0;
+    width: 100%;
+    text-align: center;
+}

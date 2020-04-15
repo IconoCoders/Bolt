@@ -1,0 +1,14 @@
+<wpml-config>
+	<admin-texts>
+		<key name="surbma_hc_fields">
+			<key name="returntoshopmessage" />
+			<key name="loginredirecturl" />
+			<key name="registrationredirecturl" />
+			<key name="freeshippingnoticemessage" />
+			<key name="legalcheckouttitle" />
+			<key name="regacceptpp" />
+			<key name="accepttos" />
+			<key name="acceptpp" />
+		</key>
+	</admin-texts>
+</wpml-config>

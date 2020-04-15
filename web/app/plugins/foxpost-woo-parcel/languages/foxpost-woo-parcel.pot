@@ -1,0 +1,482 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-08-10 14:54+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: includes/shipping-methods/class-foxpost-woo-parcel-apt-shipping-method.php:71
+#: includes/shipping-methods/class-foxpost-woo-parcel-home-delivery-shipping-method.php:71
+#, php-format
+msgid "(%s size)"
+msgstr ""
+
+#: includes/class-foxpost-woo-parcel-public.php:282
+msgid ", or use the map based finder"
+msgstr ""
+
+#: includes/shipping-methods/class-foxpost-woo-parcel-apt-shipping-method.php:135
+msgid "25"
+msgstr ""
+
+#: admin/includes/class-foxpost-woo-parcel-admin.php:459
+msgid "API"
+msgstr ""
+
+#: admin/includes/class-foxpost-woo-parcel-admin.php:478
+msgid "API errors"
+msgstr ""
+
+#: admin/includes/class-foxpost-woo-parcel-admin.php:454
+msgid "CLFOXID"
+msgstr ""
+
+#: admin/includes/abstract-foxpost-woo-parcel-export-format.php:83
+msgid "Csomag mérete"
+msgstr ""
+
+#: admin/includes/abstract-foxpost-woo-parcel-export-format.php:86
+msgid "Címkenyomtatás"
+msgstr ""
+
+#: admin/includes/abstract-foxpost-woo-parcel-export-format.php:77
+msgid "Címzett email címe"
+msgstr ""
+
+#: admin/includes/abstract-foxpost-woo-parcel-export-format.php:75
+msgid "Címzett neve"
+msgstr ""
+
+#: admin/includes/abstract-foxpost-woo-parcel-export-format.php:76
+msgid "Címzett telefonszáma"
+msgstr ""
+
+#: admin/includes/class-foxpost-woo-parcel-admin.php:132
+msgid "Date From is greater than Date To"
+msgstr ""
+
+#: admin/partials/foxpost-woo-parcel-admin-export-form.php:20
+msgid "Date range"
+msgstr ""
+
+#: includes/shipping-methods/class-foxpost-woo-parcel-apt-shipping-method.php:146
+#: includes/shipping-methods/class-foxpost-woo-parcel-home-delivery-shipping-method.php:132
+msgid "Default parcel size"
+msgstr ""
+
+#: includes/shipping-methods/class-foxpost-woo-parcel-apt-shipping-method.php:116
+#: includes/shipping-methods/class-foxpost-woo-parcel-home-delivery-shipping-method.php:107
+msgid "Delivery Fee"
+msgstr ""
+
+#: admin/includes/abstract-foxpost-woo-parcel-export-format.php:88
+msgid "Egyedi vonalkód"
+msgstr ""
+
+#: includes/shipping-methods/class-foxpost-woo-parcel-apt-shipping-method.php:95
+#: includes/shipping-methods/class-foxpost-woo-parcel-home-delivery-shipping-method.php:95
+msgid "Enable this shipping method"
+msgstr ""
+
+#: includes/shipping-methods/class-foxpost-woo-parcel-apt-shipping-method.php:93
+#: includes/shipping-methods/class-foxpost-woo-parcel-home-delivery-shipping-method.php:93
+msgid "Enable/Disable"
+msgstr ""
+
+#: admin/includes/foxpostApi/FoxpostApi.php:161
+msgid "Error during the communnication, invalid JSON response."
+msgstr ""
+
+#: admin/includes/foxpostApi/FoxpostApi.php:166
+msgid "Error in the communication."
+msgstr ""
+
+#: admin/includes/foxpostApi/FoxpostApi.php:166
+msgid "Error message from server: "
+msgstr ""
+
+#: admin/includes/class-foxpost-woo-parcel-export-format-xls.php:101
+msgid "Export data"
+msgstr ""
+
+#: admin/partials/foxpost-woo-parcel-admin-export-form.php:53
+msgid "Export filename"
+msgstr ""
+
+#: admin/partials/foxpost-woo-parcel-admin-export-main.php:20
+msgid "Export now"
+msgstr ""
+
+#: includes/shipping-methods/class-foxpost-woo-parcel-apt-shipping-method.php:105
+msgid "Fee Type"
+msgstr ""
+
+#: includes/shipping-methods/class-foxpost-woo-parcel-apt-shipping-method.php:110
+msgid "Fixed amount"
+msgstr ""
+
+#: includes/shipping-methods/class-foxpost-woo-parcel-apt-shipping-method.php:111
+msgid "Fixed amount per product"
+msgstr ""
+
+#: admin/includes/class-foxpost-woo-parcel-admin.php:290
+msgid "Foxpost"
+msgstr ""
+
+#: includes/shipping-methods/class-foxpost-woo-parcel-apt-shipping-method.php:102
+msgid "Foxpost - Delivery to APT Size S"
+msgstr ""
+
+#: includes/shipping-methods/class-foxpost-woo-parcel-home-delivery-shipping-method.php:103
+msgid "Foxpost - Home Delivery"
+msgstr ""
+
+#: admin/includes/class-foxpost-woo-parcel-admin.php:407
+msgid "Foxpost API password"
+msgstr ""
+
+#: admin/includes/class-foxpost-woo-parcel-admin.php:400
+msgid "Foxpost API username"
+msgstr ""
+
+#: includes/abstract-foxpost-woo-parcel-shipping-method.php:207
+#: includes/shipping-methods/class-foxpost-woo-parcel-apt-shipping-method.php:38
+#: includes/shipping-methods/class-foxpost-woo-parcel-apt-shipping-method.php:39
+#: includes/shipping-methods/class-foxpost-woo-parcel-apt-shipping-method.php:62
+msgid "Foxpost APT shipping"
+msgstr ""
+
+#: includes/shipping-methods/class-foxpost-woo-parcel-home-delivery-shipping-method.php:38
+#: includes/shipping-methods/class-foxpost-woo-parcel-home-delivery-shipping-method.php:39
+#: includes/shipping-methods/class-foxpost-woo-parcel-home-delivery-shipping-method.php:63
+msgid "Foxpost Home Delivery shipping"
+msgstr ""
+
+#: admin/includes/class-foxpost-woo-parcel-admin.php:188
+#: admin/includes/class-foxpost-woo-parcel-admin.php:189
+#: admin/includes/class-foxpost-woo-parcel-admin.php:198
+#: admin/includes/class-foxpost-woo-parcel-admin.php:199
+#: admin/includes/class-foxpost-woo-parcel-admin.php:505
+msgid "Foxpost export"
+msgstr ""
+
+#: admin/includes/class-foxpost-woo-parcel-admin.php:521
+msgid "Foxpost export to XLS"
+msgstr ""
+
+#: includes/abstract-foxpost-woo-parcel-shipping-method.php:208
+msgid "Foxpost home delivery"
+msgstr ""
+
+#: public/partials/foxpost-woo-parcel-apt-finder-modal.php:11
+msgid "Foxpost map based APT finder"
+msgstr ""
+
+#: admin/includes/class-foxpost-woo-parcel-admin.php:523
+msgid "Foxpost send to API"
+msgstr ""
+
+#: admin/includes/class-foxpost-woo-parcel-admin.php:306
+msgid "Foxpost settings"
+msgstr ""
+
+#: admin/includes/abstract-foxpost-woo-parcel-export-format.php:84
+msgid "Futár információk"
+msgstr ""
+
+#: admin/includes/class-foxpost-woo-parcel-admin.php:386
+msgid "General"
+msgstr ""
+
+#: admin/includes/class-foxpost-woo-parcel-admin.php:393
+msgid "Google Maps API key"
+msgstr ""
+
+#: includes/shipping-methods/class-foxpost-woo-parcel-apt-shipping-method.php:107
+msgid "How to calculate delivery charges"
+msgstr ""
+
+#: admin/includes/class-foxpost-woo-parcel-admin.php:409
+msgid ""
+"If you provide a Foxpost API password you will be able to send parcels to "
+"Foxpost API."
+msgstr ""
+
+#: admin/includes/class-foxpost-woo-parcel-admin.php:402
+msgid ""
+"If you provide a Foxpost API username you will be able to send parcels to "
+"Foxpost API."
+msgstr ""
+
+#: admin/includes/class-foxpost-woo-parcel-admin.php:395
+msgid ""
+"If you provide a Google Maps API key you will be able to display the map "
+"based APT chooser."
+msgstr ""
+
+#: admin/includes/foxpostApi/FoxpostApi.php:110
+msgid "Invalid api action:"
+msgstr ""
+
+#: admin/includes/abstract-foxpost-woo-parcel-export-format.php:80
+msgid "Irányítószám"
+msgstr ""
+
+#: includes/abstract-foxpost-woo-parcel-shipping-method.php:368
+msgid "L size"
+msgstr ""
+
+#: includes/abstract-foxpost-woo-parcel-shipping-method.php:367
+msgid "M size"
+msgstr ""
+
+#: includes/shipping-methods/class-foxpost-woo-parcel-apt-shipping-method.php:132
+msgid "Max Weight"
+msgstr ""
+
+#: includes/shipping-methods/class-foxpost-woo-parcel-apt-shipping-method.php:99
+#: includes/shipping-methods/class-foxpost-woo-parcel-home-delivery-shipping-method.php:100
+msgid "Method Title"
+msgstr ""
+
+#: admin/includes/class-foxpost-woo-parcel-admin.php:464
+#: admin/includes/class-foxpost-woo-parcel-admin.php:472
+msgid "No"
+msgstr ""
+
+#: admin/partials/foxpost-woo-parcel-admin-export-form.php:42
+#: admin/partials/foxpost-woo-parcel-admin-export-form.php:68
+msgid "None"
+msgstr ""
+
+#: admin/includes/class-foxpost-woo-parcel-foxpost-api-manager.php:140
+msgid "Nor cUrl or allow_url_fopen not available to make remote API call."
+msgstr ""
+
+#: admin/includes/class-foxpost-woo-parcel-admin.php:439
+msgid "Not Foxpost shipping order"
+msgstr ""
+
+#: admin/includes/class-foxpost-woo-parcel-admin.php:133
+msgid "Nothing to export. Please, adjust your filters"
+msgstr ""
+
+#: admin/partials/foxpost-woo-parcel-admin-export-form.php:64
+msgid "Order statuses"
+msgstr ""
+
+#: admin/includes/class-foxpost-woo-parcel-foxpost-api-manager.php:32
+msgid "Orders with exisitng CLFOXID are skipped."
+msgstr ""
+
+#: admin/includes/class-foxpost-woo-parcel-foxpost-api-manager.php:33
+msgid "Orders with no Foxpost shipping are skipped."
+msgstr ""
+
+#: includes/shipping-methods/class-foxpost-woo-parcel-apt-shipping-method.php:141
+#: includes/shipping-methods/class-foxpost-woo-parcel-home-delivery-shipping-method.php:127
+msgid "Phone number required or not"
+msgstr ""
+
+#: includes/class-foxpost-woo-parcel-public.php:197
+msgid "Please provide a mobile phone number"
+msgstr ""
+
+#: includes/class-foxpost-woo-parcel-public.php:203
+msgid "Please provide a valid mobile phone number"
+msgstr ""
+
+#: includes/class-foxpost-woo-parcel-tools.php:106
+msgid "Please select APT"
+msgstr ""
+
+#: includes/class-foxpost-woo-parcel-public.php:191
+msgid "Please select a valid APT"
+msgstr ""
+
+#: includes/class-foxpost-woo-parcel-public.php:281
+msgid "Please select an <strong>APT</strong> from dropdown"
+msgstr ""
+
+#: includes/class-foxpost-woo-parcel-public.php:186
+msgid "Please select an APT"
+msgstr ""
+
+#: includes/class-foxpost-woo-parcel-public.php:179
+#: includes/class-foxpost-woo-parcel-public.php:380
+msgid "Please select shipping method"
+msgstr ""
+
+#: includes/class-foxpost-woo-parcel-public.php:362
+msgid "Please use mobile phone number."
+msgstr ""
+
+#: admin/includes/abstract-foxpost-woo-parcel-export-format.php:89
+msgid "Referencia kód"
+msgstr ""
+
+#: includes/abstract-foxpost-woo-parcel-shipping-method.php:366
+msgid "S size"
+msgstr ""
+
+#: admin/includes/abstract-foxpost-woo-parcel-export-format.php:85
+msgid "Saját adatok"
+msgstr ""
+
+#: includes/class-foxpost-woo-parcel-public.php:290
+msgid "Select from map"
+msgstr ""
+
+#: includes/shipping-methods/class-foxpost-woo-parcel-apt-shipping-method.php:152
+#: includes/shipping-methods/class-foxpost-woo-parcel-home-delivery-shipping-method.php:138
+msgid "Seller remarks for Foxpost"
+msgstr ""
+
+#: admin/partials/foxpost-woo-parcel-admin-export-main.php:16
+msgid "Settings saved"
+msgstr ""
+
+#: admin/partials/foxpost-woo-parcel-admin-export-form.php:36
+msgid "Shipping methods"
+msgstr ""
+
+#: admin/includes/class-foxpost-woo-parcel-export-format-xls.php:127
+msgid "Site URL"
+msgstr ""
+
+#: admin/includes/class-foxpost-woo-parcel-export-format-xls.php:126
+msgid "Site name"
+msgstr ""
+
+#: admin/includes/class-foxpost-woo-parcel-export-data-provider.php:63
+#, php-format
+msgid "Successfully exported to XLS orders count is: %d"
+msgstr ""
+
+#: admin/includes/class-foxpost-woo-parcel-foxpost-api-manager.php:117
+#, php-format
+msgid "Successfully sent orders count is: %d"
+msgstr ""
+
+#: admin/includes/abstract-foxpost-woo-parcel-export-format.php:79
+msgid "Település"
+msgstr ""
+
+#: admin/includes/foxpostApi/FoxpostApi.php:90
+msgid "The given requestItem does not implement RequestItemInterface!"
+msgstr ""
+
+#: includes/shipping-methods/class-foxpost-woo-parcel-apt-shipping-method.php:134
+msgid "The maximum weight of a parcel is 25kg."
+msgstr ""
+
+#: public/partials/foxpost-woo-parcel-order-thankyou.php:23
+msgid "The selected shippind mode is:"
+msgstr ""
+
+#: admin/includes/class-foxpost-woo-parcel-foxpost-api-manager.php:31
+msgid "There was not any order to send to API."
+msgstr ""
+
+#: includes/shipping-methods/class-foxpost-woo-parcel-apt-shipping-method.php:101
+#: includes/shipping-methods/class-foxpost-woo-parcel-home-delivery-shipping-method.php:102
+msgid "This controls the title which the user sees during checkout."
+msgstr ""
+
+#. *
+#. * Collection of strings to translate whcih are not recognized by gettext.
+#.
+#: translation.php:9
+msgid ""
+"This plugin provides foxpost shipping functions and order export to FoxPost."
+msgstr ""
+
+#: includes/shipping-methods/class-foxpost-woo-parcel-home-delivery-shipping-method.php:139
+msgid "This remark will be placed into Foxpost export."
+msgstr ""
+
+#: includes/shipping-methods/class-foxpost-woo-parcel-apt-shipping-method.php:153
+msgid "This remark will be placed into Foxpost export. Max 50 chars."
+msgstr ""
+
+#: admin/includes/abstract-foxpost-woo-parcel-export-format.php:87
+msgid "Törékeny"
+msgstr ""
+
+#: admin/includes/abstract-foxpost-woo-parcel-export-format.php:81
+msgid "Utca, házszám"
+msgstr ""
+
+#: admin/includes/abstract-foxpost-woo-parcel-export-format.php:82
+msgid "Utánvételi összeg"
+msgstr ""
+
+#: admin/includes/class-foxpost-woo-parcel-export-format-xls.php:128
+msgid "Webshop engine"
+msgstr ""
+
+#: admin/includes/class-foxpost-woo-parcel-export-format-xls.php:134
+msgid "Webshop engine data"
+msgstr ""
+
+#: includes/shipping-methods/class-foxpost-woo-parcel-apt-shipping-method.php:118
+msgid ""
+"What fee do you want to charge for Foxpost APT delivery, disregarded if you "
+"choose free. Leave blank to disable."
+msgstr ""
+
+#: includes/shipping-methods/class-foxpost-woo-parcel-home-delivery-shipping-method.php:109
+msgid ""
+"What fee do you want to charge for Foxpost home delivery, disregarded if you "
+"choose free. Leave blank to disable."
+msgstr ""
+
+#: admin/includes/class-foxpost-woo-parcel-export-format-xls.php:132
+#, php-format
+msgid "WooCommerce V%s"
+msgstr ""
+
+#: includes/abstract-foxpost-woo-parcel-shipping-method.php:369
+msgid "XL size"
+msgstr ""
+
+#: admin/includes/class-foxpost-woo-parcel-admin.php:468
+msgid "XLS"
+msgstr ""
+
+#: includes/abstract-foxpost-woo-parcel-shipping-method.php:365
+msgid "XS size"
+msgstr ""
+
+#: includes/shipping-methods/class-foxpost-woo-parcel-apt-shipping-method.php:139
+#: includes/shipping-methods/class-foxpost-woo-parcel-home-delivery-shipping-method.php:125
+msgid "Yes/No"
+msgstr ""
+
+#: admin/includes/class-foxpost-woo-parcel-admin.php:134
+msgid "empty"
+msgstr ""
+
+#: admin/includes/class-foxpost-woo-parcel-admin.php:131
+msgid "empty column name"
+msgstr ""
+
+#: admin/partials/foxpost-woo-parcel-admin-export-form.php:27
+msgid "to"
+msgstr ""
+
+#: admin/includes/abstract-foxpost-woo-parcel-export-format.php:78
+msgid "Átvételi automata"
+msgstr ""

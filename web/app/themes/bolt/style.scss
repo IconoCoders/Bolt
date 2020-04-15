@@ -1,0 +1,40 @@
+/*
+Theme Name:       Bolt
+Theme URI:        http://www.woothemes.com/products/storechild/
+Description:      A storefront child theme starter.
+Author:           WooThemes
+Author URI:       http://woothemes.com
+Template:         storefront
+Version:          1.0.0
+License:          GNU General Public License v2 or later
+License URI:      http://www.gnu.org/licenses/gpl-2.0.html
+Tags:             light, dark, two-columns, right-sidebar, left-sidebar, responsive-layout, accessibility-ready
+Text Domain:      storechild
+*/
+
+@import 'bourbon';
+@import 'susy';
+@import '../storefront/assets/sass/utils/variables';
+@import '../storefront/assets/sass/vendors/font-awesome/variables';
+@import '../storefront/assets/sass/vendors/font-awesome/mixins';
+
+$font_headings: 'Alegreya Sans', sans-serif;
+$font_body:     'Alegreya', serif;
+
+body,
+button,
+input,
+select,
+textarea {
+	font-family: $font_body;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: $font_headings;
+	font-weight: 900;
+}

@@ -1,0 +1,57 @@
+.woocommerce_page_foxpost-woo-parcel-wc-order-export .export-block {
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    padding: 10px 5px 10px 10px;
+    margin: 20px 0;
+    width: 100%;
+    max-width: 25%;
+}
+.woocommerce_page_foxpost-woo-parcel-wc-order-export .block-header {
+    font-weight: bold;
+}
+
+.fox-woo-p-block-export-status .fox-woo-p-block-api {
+
+}
+
+.fox-woo-p-block-export-status {
+
+}
+
+.fox-woo-p-block-export-status {
+
+}
+
+.fox-woo-p-block-export-status {
+
+}
+
+.fox-woo-p-block-export-status {
+
+}
+
+.fox-woo-p-error {
+    color: #ff0000;
+}
+.fox-woo-p-color-green {
+    color: #5b841b;
+}
+.fox-woo-p-color-red {
+    color: #ff0000;
+}
+.fox-woo-p-color-no {
+    color: #0073aa;
+}
+.fox-woo-p-text-fw {
+}
+.fox-woo-p-title-api,
+.fox-woo-p-title-xls,
+.fox-woo-p-title-api-errors {
+
+    font-weight: bold;
+}
+
+.fox-woo-order-selected-apt-block,
+.fox-woo-order-hd-block {
+    padding-top: 5px;
+}
