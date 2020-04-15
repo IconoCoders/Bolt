@@ -1,6 +1,10 @@
 # Bolt
 Fast ecommerce framework based on Woocommerce and Roots Bedrock. Setup your ecommerce sites in minutes.
 
+> **v.1.0.1:**
+>
+> - Improvements, fixes
+>
 > **v.1.0.0:**
 >
 > - Bolt 1.0
@@ -32,6 +36,9 @@ Requirements
 - BOLT Storefront child theme
 
 You can modify this requirements any time in your project.
+
+## VPS
+- You can buy VPS for Bolt here: https://shrt.hu/vpsbolt
 
 ## Contributors ✨
 Thanks goes to these awesome projects:

@@ -13,6 +13,9 @@
 <meta charset="<?php bloginfo( 'charset' ); ?>">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2.0">
 <link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="icon" type="image/png" href="https://assets-github.s3.amazonaws.com/bolt/assets/favicon-16x16.png" sizes="16x16">
+<link rel="icon" type="image/png" href="https://assets-github.s3.amazonaws.com/bolt/assets/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="https://assets-github.s3.amazonaws.com/bolt/assets/favicon.ico" sizes="96x96">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 
 <?php wp_head(); ?>

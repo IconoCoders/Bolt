@@ -27,6 +27,17 @@ function bolt_custom_strings( $translation, $text, $domain ) {
             $translation = 'Ha már vásároltál nálunk add meg adataid a gyors és egyszerű vásárlási folyamathoz.';
             break;
     }
+
     return $translation;
 }
 add_filter( 'gettext', 'bolt_custom_strings', 20, 3 );
+
+//credits
+function storefront_credit() {
+    ?>
+    <div class="site-info">
+        <p><?php echo esc_html( apply_filters( 'storefront_copyright_text', $content = '&copy; ' . get_bloginfo( 'name' ) . ' ' . date( 'Y' ) ) ); ?></p>
+        <p><a href="https://shrt.hu/trybolt" target="_blank" rel="noopener"><?php echo __('This store runs on Bolt. Try now!'); ?></a></p>
+    </div>
+    <?php
+}
