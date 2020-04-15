@@ -17,18 +17,3 @@ add_filter('pre_site_transient_update_plugins','remove_core_updates');
 add_filter('pre_site_transient_update_themes','remove_core_updates');
 add_filter('xmlrpc_enabled', false);
 
-remove_action( 'wp_head', 'wp_generator' );
-remove_action( 'wp_head', 'wp_resource_hints', 2 );
-remove_action('rest_api_init', 'wp_oembed_register_route');
-
-// Turn off oEmbed auto discovery.
-// Don't filter oEmbed results.
-remove_filter('oembed_dataparse', 'wp_filter_oembed_result', 10);
-
-// Remove oEmbed discovery links.
-remove_action('wp_head', 'wp_oembed_add_discovery_links');
-
-// Remove oEmbed-specific JavaScript from the front-end and back-end.
-remove_action('wp_head', 'wp_oembed_add_host_js');
-remove_action('wp_head', 'wlwmanifest_link');
-remove_action('wp_head', 'rsd_link');
