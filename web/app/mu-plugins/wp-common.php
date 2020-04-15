@@ -17,3 +17,13 @@ add_filter('pre_site_transient_update_plugins','remove_core_updates');
 add_filter('pre_site_transient_update_themes','remove_core_updates');
 add_filter('xmlrpc_enabled', false);
 
+// Custom translations
+function bolt_custom_strings( $translation, $text, $domain ) {
+    switch ( $translation ) {
+        case "'You\'re viewing:'" :
+            $translation = 'Termék:';
+            break;
+    }
+    return $translation;
+}
+add_filter( 'gettext', 'bolt_custom_strings', 20, 3 );

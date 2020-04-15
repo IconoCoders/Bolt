@@ -60,7 +60,11 @@ add_action('wp_enqueue_scripts', 'wpSilktideCookieStyle');
 
 /** Add CC config js if cookie.consent.js loaded */
 function wpSilktideCookieInlineScripts()
-{ ?>
+{
+    $cookieDomain = env('WP_DOMAIN');
+    $gaCode = env('GA_CODE');
+    $AszfUrl = env('ASZF');
+    ?>
     <script>
         function clearCookie(d, b, c) {
             try {
@@ -104,14 +108,16 @@ function wpSilktideCookieInlineScripts()
                     "dismiss": "<?php if(get_option('silktide_cc_text_button')): echo esc_js(get_option('silktide_cc_text_button')); else: global $ok_button; echo esc_js($ok_button); endif; ?>",
                     "deny": "Elutasítom / Decline",
                     "link": "<?php if(get_option('silktide_cc_text_more_button')): echo esc_js(get_option('silktide_cc_text_more_button')); else: global $more_info; echo esc_js($more_info); endif; ?>",
-                    "href": "https://iconocoders.com/adatvedelem/"
+                    "href": "<?php echo $AszfUrl; ?>"
                 },
-                //"revokeBtn": "<div class='cc-revoke cc-bottom cc-animate'>Adatvédelmi Tájékoztató</div>",
+
                 onInitialise: function (status) {
                     console.log('cookie status init');
 
                     var type = this.options.type;
                     var didConsent = this.hasConsented();
+
+                    <?php if($gaCode): ?>
                     if (didConsent) {
                         // enable cookies
                         window.dataLayer = window.dataLayer || [];
@@ -119,8 +125,9 @@ function wpSilktideCookieInlineScripts()
                         gtag('js', new Date());
 
                         //Hide user real ip
-                        gtag('config', 'UA-64571746-7', { 'anonymize_ip': true });
+                        gtag('config', '<?php echo $gaCode; ?>', { 'anonymize_ip': true });
                     }
+                    <?php endif; ?>
                 },
 
                 onStatusChange: function(status, chosenBefore) {
@@ -129,13 +136,15 @@ function wpSilktideCookieInlineScripts()
                     var type = this.options.type;
                     var didConsent = this.hasConsented();
                     if (didConsent) {
+                        <?php if($gaCode): ?>
                         // enable cookies
                         window.dataLayer = window.dataLayer || [];
                         function gtag(){dataLayer.push(arguments);}
                         gtag('js', new Date());
 
                         //Hide user real ip
-                        gtag('config', 'UA-64571746-7', { 'anonymize_ip': true });
+                        gtag('config', '<?php echo $gaCode; ?>', { 'anonymize_ip': true });
+                        <?php endif; ?>
                     }
                 },
 
@@ -146,20 +155,20 @@ function wpSilktideCookieInlineScripts()
                     if (type == 'opt-out') {
                         // disable cookies
                         clearCookie('_ga','.','/');
-                        clearCookie('_gat_gtag_UA-64571746-7','.szerver.store','/');
-                        clearCookie('_gid','.szerver.store','/');
-                        clearCookie('gravatar','.szerver.store','/');
-                        clearCookie('is-logged-in','.szerver.store','/');
-                        clearCookie('wordpress_test_cookie','.szerver.store','/');
-                        clearCookie('wp-settings-1','.szerver.store','/');
-                        clearCookie('wp-settings-time-1','.szerver.store','/');
-                        clearCookie('sc_is_visitor_unique','.szerver.store','/');
-                        clearCookie('sc_is_visitor_unique','.szerver.store','/');
-                        clearCookie('helpcrunch-device','.szerver.store','/');
-                        clearCookie('is_unique','.szerver.store','/');
-                        clearCookie('is_unique_1','.szerver.store','/');
-                        clearCookie('device-referrer','.szerver.store','/');
-                        clearCookie('device-source','.szerver.store','/');
+                        clearCookie('_gat_gtag_<?php echo $gaCode; ?>','.<?php echo $cookieDomain; ?>','/');
+                        clearCookie('_gid','.<?php echo $cookieDomain; ?>','/');
+                        clearCookie('gravatar','.<?php echo $cookieDomain; ?>','/');
+                        clearCookie('is-logged-in','.<?php echo $cookieDomain; ?>','/');
+                        clearCookie('wordpress_test_cookie','.<?php echo $cookieDomain; ?>','/');
+                        clearCookie('wp-settings-1','.<?php echo $cookieDomain; ?>','/');
+                        clearCookie('wp-settings-time-1','.<?php echo $cookieDomain; ?>','/');
+                        clearCookie('sc_is_visitor_unique','.<?php echo $cookieDomain; ?>','/');
+                        clearCookie('sc_is_visitor_unique','.<?php echo $cookieDomain; ?>','/');
+                        clearCookie('helpcrunch-device','.<?php echo $cookieDomain; ?>','/');
+                        clearCookie('is_unique','.<?php echo $cookieDomain; ?>','/');
+                        clearCookie('is_unique_1','.<?php echo $cookieDomain; ?>','/');
+                        clearCookie('device-referrer','.<?php echo $cookieDomain; ?>','/');
+                        clearCookie('device-source','.<?php echo $cookieDomain; ?>','/');
                         // Get an array of cookies
                         var arrSplit = document.cookie.split(";");
                         for(var i = 0; i < arrSplit.length; i++)
