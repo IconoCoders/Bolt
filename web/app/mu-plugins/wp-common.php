@@ -19,11 +19,6 @@ add_filter('xmlrpc_enabled', false);
 
 remove_action( 'wp_head', 'wp_generator' );
 remove_action( 'wp_head', 'wp_resource_hints', 2 );
-remove_action('init', 'rest_api_init');
-remove_action('rest_api_init', 'rest_api_default_filters', 10);
-remove_action('wp_head', 'rest_output_link_wp_head', 10);
-remove_action('parse_request', 'rest_api_loaded');
-// Remove the REST API endpoint.
 remove_action('rest_api_init', 'wp_oembed_register_route');
 
 // Turn off oEmbed auto discovery.
