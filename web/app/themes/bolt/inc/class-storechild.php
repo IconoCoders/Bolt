@@ -54,7 +54,7 @@ if ( ! class_exists( 'Storechild' ) ) {
 		 */
 		public function storechild_fonts( $fonts ) {
 			$fonts = array(
-				'lato'      => 'Lato:300,400,700',
+				'spro'      => 'Source Sans Pro:300,400,700',
 			);
 
 			return $fonts;
