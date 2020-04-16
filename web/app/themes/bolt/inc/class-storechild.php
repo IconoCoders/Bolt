@@ -54,8 +54,7 @@ if ( ! class_exists( 'Storechild' ) ) {
 		 */
 		public function storechild_fonts( $fonts ) {
 			$fonts = array(
-				'alegreya'      => 'Alegreya:400,400italic,700,900',
-				'alegreya-sans' => 'Alegreya+Sans:400,400italic,700,900',
+				'lato'      => 'Lato:300,400,700',
 			);
 
 			return $fonts;

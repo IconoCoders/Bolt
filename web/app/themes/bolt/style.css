@@ -12,6 +12,10 @@ Tags:             light, dark, two-columns, right-sidebar, left-sidebar, respons
 Text Domain:      storechild
 */
 
+body {
+    font-family: 'Lato', sans-serif;
+}
+
 a:focus,
 .focus a {
     outline: none !important;
