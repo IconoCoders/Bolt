@@ -90,12 +90,13 @@ modules.xml
 # End of https://www.gitignore.io/api/phpstorm+all
 
 # Application
+web/app/plugins/*
 !web/app/plugins/.gitkeep
 web/app/mu-plugins/*/
 web/app/upgrade
 web/app/uploads/*
 !web/app/uploads/.gitkeep
-web/app/languages/hu_HU-*
+
 # WordPress
 web/wp
 web/.htaccess
@@ -109,6 +110,7 @@ web/.htaccess
 !.env.example
 !.env.stage
 !.env.local
+!.env.prod
 .htaccess
 
 # Composer
