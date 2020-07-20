@@ -37,6 +37,7 @@
     "roots/wordpress": "5.4.2",
     "roots/wp-config": "1.0.0",
     "roots/wp-password-bcrypt": "1.0.0",
+    "roots/soil": "3.9.0",
     "automattic/woocommerce": "^3.0",
     "wpackagist-plugin/woocommerce": "4.2.2",
     "wpackagist-plugin/integration-for-szamlazzhu-woocommerce": "4.8.1",
