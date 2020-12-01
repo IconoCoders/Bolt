@@ -23,9 +23,9 @@
 <!-- custom analytics -->
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <?php
-$gaCode = env('GA_CODE');
-$statCounter = env('STAT_COUNTER');
-$statCounterSec = env('STAT_COUNTER_SEC');
+$gaCode = getenv('GA_CODE');
+$statCounter = getenv('STAT_COUNTER');
+$statCounterSec = getenv('STAT_COUNTER_SEC');
 ?>
 
 <?php if($gaCode && $statCounter): ?>
