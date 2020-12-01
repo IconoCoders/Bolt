@@ -48,7 +48,8 @@
     "wpackagist-plugin/autodescription": "4.1.2",
     "wpackagist-plugin/surbma-magyar-woocommerce": "29.5",
     "wpackagist-plugin/woocommerce-google-analytics-integration": "1.4.25",
-    "wpackagist-plugin/mailgun":"1.7.1"
+    "wpackagist-plugin/mailgun":"1.7.1",
+    "wpackagist-plugin/swift-performance-lite": "2.1.4"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.5.6",

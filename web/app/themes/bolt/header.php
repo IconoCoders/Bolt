@@ -26,9 +26,8 @@
 $gaCode = getenv('GA_CODE');
 $statCounter = getenv('STAT_COUNTER');
 $statCounterSec = getenv('STAT_COUNTER_SEC');
-?>
 
-<?php if($gaCode && $statCounter): ?>
+if($gaCode && $statCounter): ?>
     <script async src="https://www.googletagmanager.com/gtag/js?id=<?php echo $gaCode; ?>"></script>
 
     <!-- Default Statcounter code for Iconocoders.com
@@ -44,7 +43,50 @@ $statCounterSec = getenv('STAT_COUNTER_SEC');
             async></script>
     <!-- End of Statcounter Code -->
     <!-- custom analytics -->
+<?php endif;
+
+$owaUrl = getenv('OWA_URL');
+$owaCode = getenv('OWA_CODE');
+$owaTracking = getenv('OWA_TRACKING');
+$hotjarId = getenv('HOTJAR_ID');
+
+//OWA
+if($owaTracking && $owaCode): ?>
+    <!-- Start Open Web Analytics Tracker -->
+    <script type="text/javascript">
+        //<![CDATA[
+        var owa_baseUrl = '<?php echo $owaUrl; ?>';
+        var owa_cmds = owa_cmds || [];
+        owa_cmds.push(['setSiteId', '<?php echo $owaCode; ?>']);
+        owa_cmds.push(['trackPageView']);
+        owa_cmds.push(['trackClicks']);
+
+        (function() {
+            var _owa = document.createElement('script'); _owa.type = 'text/javascript'; _owa.async = true;
+            owa_baseUrl = ('https:' == document.location.protocol ? window.owa_baseSecUrl || owa_baseUrl.replace(/http:/, 'https:') : owa_baseUrl );
+            _owa.src = owa_baseUrl + 'modules/base/js/owa.tracker-combined-min.js';
+            var _owa_s = document.getElementsByTagName('script')[0]; _owa_s.parentNode.insertBefore(_owa, _owa_s);
+        }());
+        //]]>
+    </script>
+    <!-- End Open Web Analytics Code -->
+<?php endif;
+
+//hotjar
+if($hotjarId): ?>
+    <!-- Hotjar Tracking Code -->
+    <script>
+        (function(h,o,t,j,a,r){
+            h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+            h._hjSettings={hjid:<?php echo $hotjarId; ?>,hjsv:6};
+            a=o.getElementsByTagName('head')[0];
+            r=o.createElement('script');r.async=1;
+            r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+    </script>
 <?php endif; ?>
+    
 </head>
 
 <body <?php body_class(); ?>>
