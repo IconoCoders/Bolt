@@ -24,25 +24,17 @@
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <?php
 $gaCode = getenv('GA_CODE');
-$statCounter = getenv('STAT_COUNTER');
-$statCounterSec = getenv('STAT_COUNTER_SEC');
 
-if($gaCode && $statCounter): ?>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=<?php echo $gaCode; ?>"></script>
+if($gaCode): ?>
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-    <!-- Default Statcounter code for Iconocoders.com
-    https://iconocoders.com -->
-    <script type="text/javascript">
-        var sc_project=<?php echo $statCounter; ?>;
-        var sc_invisible=1;
-        var sc_security="<?php echo $statCounterSec; ?>";
-        var sc_https=1;
+        ga('create', '<?php echo $gaCode; ?>', 'auto');
+        ga('send', 'pageview');
     </script>
-    <script type="text/javascript"
-            src="https://www.statcounter.com/counter/counter.js"
-            async></script>
-    <!-- End of Statcounter Code -->
-    <!-- custom analytics -->
 <?php endif;
 
 $owaUrl = getenv('OWA_URL');
@@ -86,7 +78,7 @@ if($hotjarId): ?>
         })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
     </script>
 <?php endif; ?>
-    
+
 </head>
 
 <body <?php body_class(); ?>>
