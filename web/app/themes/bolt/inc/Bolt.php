@@ -53,6 +53,12 @@ function bolt_custom_strings( $translation, $text, $domain )
         case 'Shop order number:':
             $translation = 'Rendelésszám';
             break;
+        case 'Please select an APT from dropdown .':
+            $translation = 'Kérjük válasszon csomagpontot:';
+            break;
+        case 'Please select an APT from dropdown':
+            $translation = 'Kérjük válasszon csomagpontot:';
+            break;
         case 'If you have shopped with us before, please enter your details below. If you are a new customer, please proceed to the Billing section.':
             $translation = 'Ha már vásároltál nálunk add meg adataid a gyors és egyszerű vásárlási folyamathoz.';
             break;
