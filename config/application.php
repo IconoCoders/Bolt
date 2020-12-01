@@ -9,6 +9,7 @@
  */
 
 use Roots\WPConfig\Config;
+use function Env\env;
 
 /**
  * Directory containing all of the site's files
@@ -23,11 +24,6 @@ $root_dir = dirname(__DIR__);
  * @var string
  */
 $webroot_dir = $root_dir . '/web';
-
-/**
- * Expose global env() function from oscarotero/env
- */
-Env::init();
 
 /**
  * Use Dotenv to set required environment variables and load .env file in root
@@ -114,10 +110,9 @@ ini_set('display_errors', '0');
  * Allow WordPress to detect HTTPS when used behind a reverse proxy or a load balancer
  * See https://codex.wordpress.org/Function_Reference/is_ssl#Notes
  */
-if (env('IS_SSL') && isset($_SERVER['HTTP_X_FORWARDED_PROTO']) && $_SERVER['HTTP_X_FORWARDED_PROTO'] === 'https') {
+if (isset($_SERVER['HTTP_X_FORWARDED_PROTO']) && $_SERVER['HTTP_X_FORWARDED_PROTO'] === 'https') {
     $_SERVER['HTTPS'] = 'on';
 }
-Config::define('FORCE_SSL_ADMIN', false);
 
 $env_config = __DIR__ . '/environments/' . WP_ENV . '.php';
 

@@ -1,5 +1,10 @@
 # Bolt
 Fast ecommerce framework based on Woocommerce and Roots Bedrock. Setup your ecommerce sites in minutes.
+> **v.1.6.0:**
+>
+> - Bedrock updates
+> - Improvements, fixes
+>
 > **v.1.5.0:**
 >
 > - Improvements, fixes

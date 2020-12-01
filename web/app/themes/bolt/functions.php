@@ -23,6 +23,7 @@ require_once( 'inc/storechild-template-hooks.php' );
 require_once( 'inc/storechild-template-functions.php' );
 require_once( 'inc/plugged.php' );
 require_once( 'inc/Bolt.php' );
+require_once( 'inc/Soil.php' );
 
 function woocommerce_quantity_input_min_callback( $min, $product )
 {
